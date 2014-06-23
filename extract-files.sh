@@ -35,8 +35,8 @@
 set -e
 
 # Verify that this script is being run from the device tree
-if [ ! -f slim.mk ]; then
-  echo "$0: slim.mk was not found in the current directory. Run this tool from your device tree."
+if [ ! -f evolution.mk ]; then
+  echo "$0: evolution.mk was not found in the current directory. Run this tool from your device tree."
   exit 1
 fi
 
